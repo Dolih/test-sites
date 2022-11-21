@@ -1,0 +1,63 @@
+@mixin headers(){
+    color: whitesmoke;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    height: 6vh;
+    line-height: 6vh;
+
+}
+
+@mixin boxes {
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-top: 15vh;
+    height: 60vh;
+    border-radius: 20px;
+    border: 1px solid rgba(245, 245, 245, 0.24);
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.23);
+    
+}
+
+body{
+    background-color: rgb(93, 93, 93);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+#title{
+    @include headers();
+    font-weight: bold;
+    font-size: 2.2em;
+    border-radius:  20px;  
+    animation-name: animation1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+
+.menu{
+    @include headers(); 
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    font-size: 1.8em; 
+}
+
+.left{
+    border-radius: 0 0 0 20px;
+}
+.right{
+    border-radius: 0 0 20px 0 ;
+}
+.focus{
+    background-color: rgb(0, 0, 0);
+}
+
+.settingsBox{
+    @include boxes();
+}    
+
+.reslutBox{
+    @include boxes();
+}
