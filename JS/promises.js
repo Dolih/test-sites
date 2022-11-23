@@ -1,6 +1,7 @@
 
 const nameBoxFilm = document.getElementById('filmName');
 const seelctButton = document.getElementById('selectButton');
+const boxImg = document.getElementById('imgFilm');
 let idFilm
 
 const getFilmsInfo = (idFilm) => {
@@ -19,6 +20,7 @@ const showFilm = () => getFilmsInfo(idFilm)
     .then(nowFilm => {
         console.log(nowFilm);
         nameBoxFilm.textContent = `"${nowFilm.title}"`;
+        boxImg.src = nowFilm.posterURL;
         return nowFilm;
     });
     
