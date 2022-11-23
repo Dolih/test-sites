@@ -21,6 +21,8 @@ const showFilm = () => getFilmsInfo(idFilm)
         console.log(nowFilm);
         nameBoxFilm.textContent = `"${nowFilm.title}"`;
         boxImg.src = nowFilm.posterURL;
+        let imdbID = nowFilm.imdbId;
+        nameBoxFilm.href = `https://www.imdb.com/title/${imdbID}/`;
         return nowFilm;
     });
     
