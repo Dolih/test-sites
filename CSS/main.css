@@ -145,6 +145,23 @@ body {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.23);
 }
 
+.radioGenre {
+  text-align: center;
+}
+
+.radioButton {
+  position: fixed;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.radioButtonTxt {
+  color: whitesmoke;
+  font-size: 1.4em;
+  width: 100%;
+  background-color: #6501de;
+}
+
 #selectButton {
   position: relative;
   font-family: "Courier New", Courier, monospace;
@@ -152,7 +169,7 @@ body {
   color: whitesmoke;
   text-align: center;
   font-size: 1.4em;
-  margin-top: 45vh;
+  margin-top: 35vh;
   border: none;
   border-radius: 20px;
   height: 10%;
