@@ -56,6 +56,16 @@ body {
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.23);
 }
 
+#selectButton {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.4em;
+  margin-top: 45vh;
+  border: none;
+  border-radius: 20px;
+}
+
 .reslutBox {
   background-color: rgba(255, 255, 255, 0.08);
   margin-top: 15vh;
@@ -63,4 +73,11 @@ body {
   border-radius: 20px;
   border: 1px solid rgba(245, 245, 245, 0.24);
   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.23);
+}
+
+#filmName {
+  margin-top: 50px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

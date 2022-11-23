@@ -56,8 +56,25 @@ body{
 
 .settingsBox{
     @include boxes();
-}    
+}   
+
+#selectButton{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.4em;
+    margin-top: 45vh;
+    border:none;
+    border-radius: 20px;
+}
 
 .reslutBox{
     @include boxes();
+}
+
+#filmName{
+    margin-top: 50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-align: center;
 }
