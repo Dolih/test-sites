@@ -318,7 +318,7 @@ body{
     opacity: 1;
 }
 
-@media(max-width: 600px){
+@media(max-width: 576px){
 
     #title{
         margin: 15px 0;
@@ -361,4 +361,66 @@ body{
      .right{
         border-radius: 0 0 20px 20px;
     }
+}
+
+@media(max-width: 768px){
+
+    #title{
+        margin: 15px 0;
+    }
+
+    .settingsBox{
+        @include boxes();
+        height: 100%;
+    }   
+
+    #selectButton{
+        margin-bottom: 5vh;
+        height: 60px;
+    }
+
+    .radioGenre{
+        height: 60px;
+        line-height: 60px;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .reslutBox{
+        margin-bottom: 10vh;
+    }
+
+    .radioButtonTxt{
+        font-size: 1.2em;
+    }
+
+    .boxImgFilm{
+        
+        width: 45%;
+        margin: 30px auto 0 auto;
+    }
+
+    .left{
+        border-radius: 20px 20px 0 0;
+    }
+     .right{
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+@media(min-width: 768px) and (max-width:1112px){
+
+    .boxImgFilm{
+        margin-top: 70px;
+        width: 35%;
+    }
+
+    .radioButtonTxt{
+        font-size: 1em;
+    }
+
+    .chooseGenre{
+        font-size: 1.5em;
+    }
+
 }
