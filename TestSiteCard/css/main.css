@@ -1,0 +1,13 @@
+.header {
+  margin: 60px auto;
+  font-size: 15px;
+  text-transform: uppercase;
+  line-height: 2;
+}
+.header span {
+  display: block;
+  line-height: 2;
+}
+.header:hover {
+  background-color: #0f0f0f;
+}
