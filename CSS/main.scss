@@ -1,3 +1,5 @@
+$boxHeight: 60vh;
+
 @mixin headers(){
     color: whitesmoke;
     text-align: center;
@@ -224,7 +226,7 @@ body{
 .radioButtonTxt{
     color: whitesmoke;
     font-size: 1.4em;
-    width: 100%;
+    // width: 100%;
     line-height: 40px;
     font-family:'Courier New', Courier, monospace;
 
@@ -309,4 +311,27 @@ body{
     width: 100%;
     border-radius: 20px;
     opacity: 1;
+}
+
+@media(max-width: 600px){
+    .settingsBox{
+        @include boxes();
+        height: 100%;
+    }   
+
+    #selectButton{
+        margin-bottom: 5vh;
+        height: 60px;
+    }
+
+    .radioGenre{
+        height: 60px;
+        line-height: 60px;
+        width: 80%;
+        margin: 20px auto;
+    }
+    
+    .reslutBox{
+        margin-bottom: 10vh;
+    }
 }
