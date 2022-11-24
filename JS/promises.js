@@ -41,6 +41,10 @@ $('.radioGenre').on('click', function () {
             boxImg.src = nowFilm.posterURL;
             let imdbID = nowFilm.imdbId;
             nameBoxFilm.href = `https://www.imdb.com/title/${imdbID}/`;
+            console.log(nameBoxFilm.text.length)
+            if (nameBoxFilm.text.length > 20) {
+                $('#filmName').css('font-size', '1.5em')
+            } else {$('#filmName').css('font-size', '2em')}
             return nowFilm;
         });
         
@@ -57,7 +61,9 @@ $('.radioGenre').on('click', function () {
             
             setTimeout(function () { $('#filmName').fadeTo(200, 1, 'linear'); $('#imgFilm').fadeTo(200, 1, 'linear')  }, 2000);
             showFilm();
-        }, false );
+        }, false);
+    
+        
    
 });
 
