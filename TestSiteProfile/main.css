@@ -1,0 +1,132 @@
+
+*{
+	margin: 0px 10px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Baloo Bhaijaan 2', cursive;
+}
+span{
+	color: red;
+}
+.container{
+	height: 100vh;
+}
+.header{
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 4vw;
+}
+.menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	font-size: 2.5vw;
+	gap: 15px;
+}
+.main{
+	height: 80%;
+	display: flex;
+	flex-direction: row;
+
+}
+.image{
+	background-image: url('images/Portrait.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left center;
+	width: 45%;
+}
+.text{
+	width: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.text-1{
+	font-size: 6vw;
+}
+.text-2, .text-3, .text-4{
+	font-size: 4vw;
+}
+.footer{
+	height: 10%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 20px;
+	margin-right: 10%;
+
+}
+.footer img{
+	width: 5vw;
+}
+
+@media (max-width: 600px){
+	.header{
+		justify-content: center;
+	}
+	.logo{
+		font-size: 60px;
+		margin-top: 10vh ;
+	}
+	.menu{
+		display: none;
+	}
+
+	.main{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.image{
+		width: 200px;
+		height: 200px;
+		border-radius: 100%;
+		background-size: 100%;
+		margin-bottom: 10vh;
+		background-position: center;
+	}
+	.text{
+		width: 100%;
+
+	}
+	.text-1{
+
+	}
+	.text-2, .text-3, .text-4{
+		font-size: 30px;
+	}
+
+	.footer{
+		justify-content: center;
+		margin: 0px;
+	}
+	.instagram{
+		width: 60px;
+		height: 60px;
+	}
+	.twitter{
+		width: 60px;
+		height: 60px;
+	}
+	.dribble{
+		width: 60px;
+		height: 60px;
+	}
+	.behance{
+		width: 60px;
+		height: 60px;
+	}
+}
