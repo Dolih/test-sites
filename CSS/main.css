@@ -334,7 +334,7 @@ body {
     font-size: 1.2em;
   }
   .boxImgFilm {
-    width: 60%;
+    width: 60vh;
     margin: 30px auto 0 auto;
   }
   .left {
@@ -344,7 +344,7 @@ body {
     border-radius: 0 0 20px 20px;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   #title {
     margin: 15px 0;
   }
@@ -375,7 +375,7 @@ body {
     font-size: 1.2em;
   }
   .boxImgFilm {
-    width: 45%;
+    width: 35vh;
     margin: 30px auto 0 auto;
   }
   .left {
@@ -387,8 +387,8 @@ body {
 }
 @media (min-width: 768px) and (max-width: 1112px) {
   .boxImgFilm {
-    margin-top: 70px;
-    width: 35%;
+    margin: 20px auto 0 auto;
+    width: 35vh;
   }
   .radioButtonTxt {
     font-size: 1em;
