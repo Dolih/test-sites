@@ -176,7 +176,7 @@ body{
 }   
 
 .radioArea{
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .radioGenre{
@@ -235,7 +235,7 @@ body{
     color: whitesmoke;
     text-align: center;
     font-size: 1.4em;
-    margin-top: 7vh;
+    margin-top: 15%;
     border:none;
     border-radius: 20px;
     height: 10%;
@@ -282,7 +282,15 @@ body{
     padding: 0;
 }
 
-
+.chooseGenre{
+    text-decoration: none;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+}
 
 #filmName{
     text-decoration: none;
