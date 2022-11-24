@@ -127,14 +127,6 @@ body {
   font-weight: bold;
   font-size: 2.2em;
   border-radius: 20px;
-  -webkit-animation-name: animation1;
-          animation-name: animation1;
-  -webkit-animation-duration: 5s;
-          animation-duration: 5s;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
 }
 
 .menu {
@@ -300,6 +292,9 @@ body {
 }
 
 @media (max-width: 600px) {
+  #title {
+    margin: 15px 0;
+  }
   .settingsBox {
     background-color: rgba(255, 255, 255, 0.08);
     margin-top: 15vh;
@@ -321,5 +316,18 @@ body {
   }
   .reslutBox {
     margin-bottom: 10vh;
+  }
+  .radioButtonTxt {
+    font-size: 1.2em;
+  }
+  .boxImgFilm {
+    width: 60%;
+    margin: 30px auto 0 auto;
+  }
+  .left {
+    border-radius: 20px 20px 0 0;
+  }
+  .right {
+    border-radius: 0 0 20px 20px;
   }
 }/*# sourceMappingURL=main.css.map */
